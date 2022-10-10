@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Search } from '@mui/icons-material';
 
-const SearchBar = () => (
-	<div className="">
+const SearchBar = () => {
+	return (
 		<Paper
 			component="form"
 			onSubmit={() => {}}
@@ -21,7 +21,6 @@ const SearchBar = () => (
 				<Search />
 			</IconButton>
 		</Paper>
-	</div>
-);
-
+	);
+};
 export default SearchBar;
